@@ -1,0 +1,11 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-end {
+  align-items: end;
+}/*# sourceMappingURL=display.css.map */

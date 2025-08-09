@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Sticky Stack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sphere h-100vh">
+        <div class="w-100 h-100 container">
+            <div class="w-100 h-100 sphere__wrapper d-flex">
+                <div class="sphere__content">
+                    <h1>The Sphere Lab</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="scroll-stack" class="scroll-stack relative">
+        <div class="scroll-stack__wrapper sticky top-0 d-flex align-end">
+            <div class="scroll-stack__title d-flex w-50">
+                <h2>The Methodology</h2>
+            </div>
+
+            <ol class="scroll-stack__cards d-flex flex-col w-50 relative accordion">
+                    <li class="accordion__item" collapse="active">
+                        <div class="accordion-item__header">
+                            <h3>Title</h3>
+                        </div>
+
+                        <div class="accordion-item__content flex-col">
+                            <h3>Title</h3>
+
+                            <p>
+                                We work to outpace emerging trends, performing rigorous and continuous market analyses while collecting consumer feedback. This helps identify new trends and opportunities while demonstrating that our many sports products & services are not just relevant, but revolutionary.
+                            </p>
+
+                            <div class="media"></div>
+                        </div>
+                    </li>
+                    <li class="accordion__item" collapse="inactive">
+                        <div class="accordion-item__header">
+                            <h3>Title</h3>
+                        </div>
+
+                        <div class="accordion-item__content flex-col">
+                            <h3>Title</h3>
+
+                            <p>
+                                We work to outpace emerging trends, performing rigorous and continuous market analyses while collecting consumer feedback. This helps identify new trends and opportunities while demonstrating that our many sports products & services are not just relevant, but revolutionary.
+                            </p>
+
+                            <div class="media"></div>
+                        </div>
+                    </li>
+                    <li class="accordion__item" collapse="inactive">
+                        <div class="accordion-item__header">
+                            <h3>Title</h3>
+                        </div>
+
+                        <div class="accordion-item__content flex-col">
+                            <h3>Title</h3>
+
+                            <p>
+                                We work to outpace emerging trends, performing rigorous and continuous market analyses while collecting consumer feedback. This helps identify new trends and opportunities while demonstrating that our many sports products & services are not just relevant, but revolutionary.
+                            </p>
+
+                            <div class="media"></div>
+                        </div>
+                    </li>
+            </ol>
+    </section>
+
+    <section class="sphere h-100vh">
+        <div class="w-100 h-100 container">
+            <div class="w-100 h-100 sphere__wrapper d-flex">
+                <div class="sphere__content">
+                    <h1>The Sphere Lab</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="slide-panel--left"></div>
+</body>
+<script src="scripts/main.js" type="module"></script>
+</html>

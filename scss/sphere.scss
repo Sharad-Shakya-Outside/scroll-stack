@@ -1,0 +1,9 @@
+.sphere {
+  &__wrapper {
+    flex-direction: column;
+  }
+
+  &__content {
+    margin-block: auto 3rem;
+  }
+}
