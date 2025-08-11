@@ -5,7 +5,7 @@ export const slidePanel = () => {
 
   const options = {
     root: null,
-    rootMargin: "-500px",
+    rootMargin: "-30%",
     threshold: 0,
   };
 
